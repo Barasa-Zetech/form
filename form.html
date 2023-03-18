@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>My Application Form</title>
+    <style media="screen">
+      .form-center {
+        display:flex;
+        margin-left:80px;
+      }
+      .ismail {
+        margin-left:40px;
+      }
+      .alias {
+        margin-left: 0px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>My Feedback Form</h1>
+  <div class="form-center">
+    <form class="application form" action="mailto:enockbarasa11@gmail.com" method="post" enctype="text/plain">
+      <table>
+        <tr>
+          <td><label for="Name:"><li><strong>Name:</strong></li></label></td>
+          <td><input type="text" name="Name" value=""></td>
+        </tr>
+        <tr>
+          <td><label for="Email:"><li><strong>Email:</strong></li></label></td>
+          <td><input type="email" name="Email:" value=""></td>
+        </tr>
+        <tr>
+          <td><label for="Password:"><li><strong>Password:</strong></li></label></td>
+          <td><input type="Password" name="Password:" value=""></td>
+        </tr>
+
+      </table>
+      <table>
+        <ul>
+          <td><li><strong>Please check all the emotions that you apply to:</strong></li></td>
+        </ul>
+      </table>
+      <div class="ismail">
+        <table>
+          <tr>
+            <td><label for=""><li><strong>Angry</strong></li></label></td>
+            <td><input type="checkbox" name="" value=""></td>
+          </tr>
+          <tr>
+            <td><label for=""><li><strong>Sad</strong></li></label></td>
+            <td><input type="checkbox" name="" value=""></td>
+          </tr>
+          <tr>
+            <td><label for=""><li><strong>Ambivalent</strong></li></label></td>
+            <td><input type="checkbox" name="" value=""></td>
+          </tr>
+        </table>
+      </div>
+      <table>
+        <ul>
+          <td><strong><li>How satisfied were you with our service?</li></strong></td>
+        </ul>
+      </table>
+      <div class="ismail">
+        <table>
+          <tr>
+            <td><label for=""><li><strong>Very satisfied</strong></li></label></td>
+            <td><input type="radio" name="Very satisfied" value=""></td>
+          </tr>
+          <tr>
+            <td><label for=""><li><strong>satisfied</strong></li></label></td>
+            <td><input type="radio" name="satisfied" value=""></td>
+          </tr>
+          <tr>
+            <td><label for=""><li><strong>Didn't care</strong></li></label></td>
+            <td><input type="radio" name="Didn't care" value=""></td>
+          </tr>
+          <tr>
+            <td><label for=""><li><strong>Dissatisfied</strong></li></label></td>
+            <td><input type="radio" name="Dissatisfied" value=""></td>
+          </tr>
+          <tr>
+            <td><label for=""><li><strong>Very dissatisfied</strong></li></label></td>
+            <td><input type="radio" name="Very dissatisfied" value=""></td>
+          </tr>
+        </table>
+      </div>
+        <table>
+          <ul>
+            <td><strong><li>Further comment: </li></strong></td>
+            <td><textarea name="Further comment:" rows="4" cols="30"></textarea></td>
+          </ul>
+        </table>
+        <table>
+          <ul>
+            <td><strong><li>Bio photo: </li></strong></td>
+            <td><td><input type="file" name="Bio photo:" value=""></td></td>
+          </ul>
+        </table>
+        <table>
+          <ul>
+            <td><strong><li>Location visited: </li></strong></td>
+            <td><select name="Location visited" id="Location">
+  <option value="Nairobi">Nairobi</option>
+  <option value="Nakuru">Nakuru</option>
+  <option value="Mombasa">Mombasa</option>
+  <option value="Kisumu">Kisumu</option>
+</select></td>
+          </ul>
+        </table>
+        <table>
+            <ul>
+              <td><strong><li><input type="submit"></li></strong></td>
+            </ul>
+        </table>
+    </form>
+  </div>
+  </body>
+</html>
